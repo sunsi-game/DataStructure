@@ -131,11 +131,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Linear\Linear.h" />
+    <ClInclude Include="Linear\Queue.h" />
+    <ClInclude Include="Linear\Stack.h" />
     <ClInclude Include="NonLinear\NonLinear.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Linear\Linear.cpp" />
+    <ClCompile Include="Linear\Main.cpp" />
+    <ClCompile Include="Linear\Queue.cpp" />
+    <ClCompile Include="Linear\Stack.cpp" />
     <ClCompile Include="NonLinear\Main.cpp" />
     <ClCompile Include="NonLinear\NonLinear.cpp" />
   </ItemGroup>

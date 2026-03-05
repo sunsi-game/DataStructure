@@ -18,7 +18,10 @@
     <ClInclude Include="NonLinear\NonLinear.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Linear\Linear.h">
+    <ClInclude Include="Linear\Queue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Linear\Stack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,10 +29,16 @@
     <ClCompile Include="NonLinear\NonLinear.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Linear\Linear.cpp">
+    <ClCompile Include="NonLinear\Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="NonLinear\Main.cpp">
+    <ClCompile Include="Linear\Queue.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Linear\Stack.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Linear\Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
